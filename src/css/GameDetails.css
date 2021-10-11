@@ -1,0 +1,34 @@
+.gamedeets-card{
+    width:100%;
+    height:100%;
+    background-color:#FBFBFB;
+}
+
+.game-deets{
+    position: absolute;
+    z-index: 2;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+
+.game-button{
+    background-color: #8DFFDF;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    display: inline-block;
+    font-size: 48px;
+    margin: 4px 2px;
+    width: 70%;
+    border-radius:25px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.game-button:hover{
+    background-color: #FE5A26
+}

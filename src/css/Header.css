@@ -1,0 +1,48 @@
+.header-container{
+    overflow:hidden; 
+    background-color:#FBFBFB;
+    margin:0px 10px 0px 10px; 
+    border-radius:0px 0px 25px 25px; 
+    box-shadow: 0px 4px 4px rgba(141, 255, 223, 0.5);
+}
+
+.logo{
+    height:50px;
+    margin: 5px 0px 5px 10px;
+    float:left;
+
+}
+
+.text{
+    position: relative;
+    float:right;
+    text-align:center;
+    margin:0px 15px 0px 0px;
+}
+
+.ios-badge{
+    position: relative;
+    float:right;
+    height:3em;
+    margin:10px 2px 5px 2px;
+}
+
+.android-badge{
+    position: relative;
+    float:right;
+    height:3em;
+    margin:10px 15px 5px 2px;
+}
+
+@media (max-width: 767px) {
+    .text {
+        display: none;
+    }
+    .ios-badge{
+        display: none;
+    }
+    .android-badge{
+        display: none;
+    }
+}
+

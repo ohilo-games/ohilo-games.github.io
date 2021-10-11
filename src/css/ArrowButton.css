@@ -1,0 +1,21 @@
+.arrowbutton-container{
+    position: absolute;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+    z-index: 2;
+}
+
+.arrow-button{
+    background-color:transparent;
+    border:none;
+}
+
+.arrow-icon{
+    color:white;
+}
+.arrow-icon:hover{
+    color:#59D3C8;
+}

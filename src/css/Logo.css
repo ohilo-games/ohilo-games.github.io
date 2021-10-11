@@ -1,0 +1,30 @@
+.logoIntro-container{
+    position:absolute;
+    z-index:1;
+    width:100%;
+    max-height:10%;
+    background-color:transparent !important;
+    margin:0px 10px;
+    overflow:hidden;
+    border-radius:0px 0px 25px 25px; 
+    text-align:left;
+}
+
+.logo{
+    height:50px;
+    float:left;
+    margin: 5px 0px 5px 10px;
+}
+
+.sign-in{
+    float:right;
+    color:white;
+    margin: 25px 50px 0px 0px;
+    font-size: 24px;
+    /* text-decoration: none; */
+    transition: all 2s ease-in-out;
+}
+
+/* .sign-in:hover{
+    text-decoration: underline;
+} */

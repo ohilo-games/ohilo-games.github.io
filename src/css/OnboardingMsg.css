@@ -1,0 +1,38 @@
+/*Color Scheme
+Primary Orange -  #FE5A26
+Primary Teal - #8DFFDF
+Secondary Orange - #FF7A00
+Secondary Teal - #59D3C8
+*/
+#overlay{
+    position:absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.onboardingmsg{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color:white;
+}
+
+#msg{
+    font-size:48px;
+    margin-top:25%;
+}
+
+#submsg{
+    position: relative;
+    font-size:36px;
+}
+
+#knees-text{
+    color:#8DFFDF;
+    z-index:2;
+}
