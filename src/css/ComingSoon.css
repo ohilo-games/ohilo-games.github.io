@@ -1,0 +1,17 @@
+.comingsoon-container{
+    margin-top:20%;
+    min-width:75%;
+    height:auto;
+    text-align:center;
+    /* background-color:antiquewhite; */
+}
+
+.excitingtxt{
+    font-family: 'Lato';
+    font-size:24px;
+}
+
+.comingSoon{
+    font-family: 'Nunito';
+    font-size:96px;
+}
