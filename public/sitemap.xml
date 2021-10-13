@@ -1,8 +1,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-      <loc>https://localhost:3000</loc>
+      <loc>https://ohilo.io/</loc>
   </url>
   <url>
-      <loc>https://localhost:3000/home</loc>
+      <loc>https://ohilo.io/home</loc>
   </url>
 </urlset>
