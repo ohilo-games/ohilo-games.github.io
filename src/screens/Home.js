@@ -12,10 +12,10 @@ const Home = () => {
     
     return (
         <div>
-            <Fade direction="up" duration={2000}>
+            <Fade direction="up" duration={1000}>
                 <ComingSoon />
             </Fade>
-            <Fade direction="up" delay={500} duration={2000}>
+            <Fade direction="up" delay={500} duration={1000}>
                 <Badges />
             </Fade>
         </div>

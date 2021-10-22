@@ -7,11 +7,12 @@
 }
 
 .excitingtxt{
-    font-family: 'Lato';
-    font-size:24px;
+    font-family: 'Nunito Sans';
+    font-size:28px;
 }
 
 .comingSoon{
-    font-family: 'Nunito';
-    font-size:96px;
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    font-size:120px;
 }
