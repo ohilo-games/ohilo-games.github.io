@@ -11,11 +11,9 @@ const Home = () => {
     })
     
     return (
-        <div>
-            <Fade direction="up" duration={1000}>
+        <div style={{position:'absolute',width: '100%', height: '100%',textAlign: 'center',backgroundImage:'linear-gradient(78.09deg, #140049 -22.59%, #5200FF 128.04%)'}}>
+            <Fade direction="up" cascade duration={1000}>
                 <ComingSoon />
-            </Fade>
-            <Fade direction="up" delay={500} duration={1000}>
                 <Badges />
             </Fade>
         </div>

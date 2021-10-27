@@ -8,11 +8,13 @@
 
 .excitingtxt{
     font-family: 'Nunito Sans';
+    color:white;
     font-size:28px;
 }
 
 .comingSoon{
     font-family: 'PT Sans Narrow';
     font-weight: 700;
+    color:white;
     font-size:120px;
 }

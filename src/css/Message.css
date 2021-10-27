@@ -5,6 +5,7 @@
     transform: translate(-50%, -50%);
     min-width:75%;
     height:auto;
-    text-align:center;
+    border-width: 1px;
+
     /* background-color:antiquewhite; */
 }
