@@ -6,7 +6,7 @@ const Message = () => {
     return (
         <div className="message-container">
             <Fade direction="down" duration={2000}>
-                <img src={Illustration} alt="Ill" height="150px"/>
+                <img src={Illustration} alt="Ill" height="120px"/>
                 <p style={{color:'#80FFDB', fontFamily:"Nunito Sans", fontSize:'144px', fontWeight:'800', margin:'0'}}>ohilo</p>
             </Fade>
             <Fade direction="up" duration={2000}>
