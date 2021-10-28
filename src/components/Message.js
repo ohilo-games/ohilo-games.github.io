@@ -1,6 +1,6 @@
 import '../css/Message.css'
 import { Fade } from "react-awesome-reveal";
-import Illustration from '../assets/ui/Logo.png'
+import Illustration from '../assets/ui/Ohilo_logo.svg'
 
 const Message = () => {
     return (
