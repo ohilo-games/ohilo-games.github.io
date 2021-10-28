@@ -8,7 +8,7 @@ const Message = () => {
     return (
         <div className="message-container">
             <Fade direction="down" duration={2000}>
-                <img src={Illustration} alt="Ill" height="120px"/>
+                <img src={Illustration} alt="Ill" height="150px"/>
                 <img src={LogoType} alt="logo" height="120px" style={{margin:"35px 0px 10px 0px"}}/>
                 
             </Fade>
