@@ -1,13 +1,17 @@
 import '../css/Message.css'
 import { Fade } from "react-awesome-reveal";
 import Illustration from '../assets/ui/Ohilo_logo.svg'
+import LogoType from '../assets/ui/Ohilo_LogoType.png'
+import Logo from './Logo';
+
 
 const Message = () => {
     return (
         <div className="message-container">
             <Fade direction="down" duration={2000}>
                 <img src={Illustration} alt="Ill" height="120px"/>
-                <p style={{color:'#80FFDB', fontFamily:"Nunito Sans", fontSize:'144px', fontWeight:'800', margin:'0'}}>ohilo</p>
+                <img src={LogoType} alt="logo" height="120px" style={{margin:"35px 0px 10px 0px"}}/>
+                
             </Fade>
             <Fade direction="up" duration={2000}>
                 <h1 style={{color:"white" , fontSize:"64px", fontFamily:"PT Sans Narrow", marginTop:"20px", marginBottom:"1px"}}>What do we do ?</h1>
