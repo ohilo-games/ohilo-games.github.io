@@ -13,7 +13,7 @@ const Sitemap = require("react-router-sitemap").default;
 function generateSitemap() {
   return (
   new Sitemap(router())
-  .build("https://www.example.com")
+  .build("https://www.ohilo.io")
  //Save it wherever you want
   .save("./public/sitemap.xml")
   );

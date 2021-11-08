@@ -15,6 +15,9 @@ function App() {
       <Route path="/home">
         <Home />
       </Route>
+      <Route path="/goldenthrow">
+        <Home />
+      </Route>
     </Navigation> 
   );
 }
