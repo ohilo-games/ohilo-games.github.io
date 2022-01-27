@@ -1,5 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-
-Sitemap: https://ohilo.io//sitemap.xml
+Disallow:
