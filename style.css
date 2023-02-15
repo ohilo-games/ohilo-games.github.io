@@ -2,15 +2,15 @@ body {
     margin: 0;
     font-family: 'Nunito Sans', 'PT Sans Narrow', sans-serif;
     background:linear-gradient(78.09deg, #140049 -22.59%, #5200FF 128.04%);
-    height: 100vh;
-    overflow:hidden;
+    min-height: 100vh;
+    overflow:auto;
 }
 
 .App{
     height:100vh;
     width:auto;
     display:grid;
-    grid-template-rows: 12% 88%; 
+    grid-template-rows: 12% 88% 44%; 
 }
 
 .header{
@@ -160,6 +160,8 @@ body {
     margin:5% 5% 0% 5%;
 }
 
+
+
 .by-line{
     font-family: Nunito Sans;
     color: #ffffff;
@@ -269,6 +271,57 @@ body {
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 	transform: translatey(0px);
 	animation: float 8s ease-in-out infinite;
+}
+
+.support{
+    background: #fff;
+    display:grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.faq {
+    display:grid;
+    grid-template-columns:5% 95%;
+}
+
+.contact-us {
+    display:grid;
+    grid-template-columns:5% 95%;
+}
+
+.title-alt{
+    font-family: Bebas Neue;
+    color:#000000;
+    font-size: 4vw;
+    margin:5% 5% 0% 5%;
+}
+
+.faq-list {
+    font-family: Nunito Sans;
+    color: #000000;
+    margin:5% 5% 0% 5%;
+}
+
+.faq-list dt {
+    font-size: 1vw;
+    font-weight:bold;
+}
+
+.faq-list dd {
+    font-size: 1vw;
+}
+
+.contact-us-email {
+    margin:5% 5% 0% 5%;
+    font-family: Nunito Sans;
+}
+
+.by-line-alt{
+    font-family: Nunito Sans;
+    color: #000000;
+    font-weight: 100;
+    font-size: 1vw;
+    margin:0% 5% 0% 5%;
 }
 
 /* For extremely small screen devices (595px and below) */
