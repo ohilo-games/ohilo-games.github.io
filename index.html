@@ -1,132 +1,209 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100" data-bs-theme="auto">
   <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="./Assets/favicon.ico"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta
-      name="description"
-      content="Providing console free motion gaming"
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/brand/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Providing console free motion gaming" />
+    <link rel="apple-touch-icon" href="./assets/brand/logo192.png" />
+    <meta name="author" content="Ohilo Games" />
+    <title>Ohilo</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/cover/"
     />
-    <link rel="apple-touch-icon" href="./logo192.png" />
+
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet" />
 
     <!-- Dependencies -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:100,200,300,400,500,600,700,800,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:100,200,300,400,500,600,700,800,900">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7_dtp.css" rel="stylesheet" type="text/css">
-
-    <title>Ohilo</title>
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:100,200,300,400,500,600,700,800,900"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:100,200,300,400,500,600,700,800,900"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
-  <body>
-    <div class="App">
-        <div class="header">
-            <div class="app-promo">
-                <div class="app-badges">
-                    <div class="app-icon">
-                        <img src="./Assets/AppIcon.svg" alt="icon" class="app-logo"></img>
-                    </div>
-                    <div class="app-apple">
-                        <img src="./Assets/iOS_Badge.svg" alt="icon" class="iOS"></img>
-                    </div>
-                    <div class="app-google">
-                        <img src="./Assets/google-play-badge.png" alt="icon" class="Android"></img>  
-                    </div>
-                </div>
-                <div></div>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <nav class="navbar navbar-expand-lg justify-content-center navbar-dark">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/brand/AppIcon.svg"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+              alt=""
+            />
+            Ohilo
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#"
+                >Core Trials <span class="sr-only">(current)</span></a
+              >
+              <!-- <a class="nav-item nav-link" href="#">Blog</a>
+              <a class="nav-item nav-link" href="#">Ohilo Kids</a> -->
+              <a class="nav-item nav-link" href="./privacypolicy.html"
+                >Privacy</a
+              >
+              <!-- <a class="nav-item nav-link disabled" href="#">Play</a> -->
             </div>
-            <div class="beta-tester">
-                <div></div>
-                <div class="sign-up">
-                    <div class="register-copy">
-                        <p class="copy">Become a BETA tester, NOW!!!</p>
-                    </div>
-                    <div class="form">
-                        <form action="https://ohilo.us5.list-manage.com/subscribe/post?u=460ae33bdd2cb372ce061b3ee&amp;id=0f5420d440" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div id="mc_embed_signup_scroll">
-                            <input type="email" value="" name="EMAIL" class="fname" placeholder="Enter your Email Address" required> 
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_460ae33bdd2cb372ce061b3ee_0f5420d440" tabindex="-1" value=""></div>
-                            <input type="submit" value="SUBMIT" name="submit" class="submit">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="details">
-                <div></div>
-                <div>
-                    <div class="catch-phrase">
-                        <h1 class="title">Console-Free Motion Gaming</h1>
-                        <p class="by-line">Accessible, Social, Always Fresh</p>
-                    </div>
-                    <div class="graphic">
-                        <img src='./Assets/Group 85.png' alt="bg" class="graphic-img"></img>
-                    </div>
-                    <div class="socials">
-                        <p class="follow">Follow us on</p>
-                        <div class="socialIcons">
-                            <div class="icon-div">
-                                <i class="fa fa-linkedin fa-2x icon-style" ></i>
-                            </div>
-                            <div class="icon-div">
-                                <i class="fa fa-twitter fa-2x icon-style"></i>
-                            </div>
-                            <div class="icon-div">
-                                <i class="fa fa-instagram fa-2x icon-style"></i>
-                            </div>
-                            <div class="icon-div">
-                                <!-- <i class="fa fa-youtube fa-2x icon-style"></i> -->
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-            <div class="gifs">
-                <img src="./Assets/SmartTV01.gif" class="ET"></img>
-                <img src="./Assets/goldenthrow.gif" class="GT"></img>
-                <img src="./Assets/keepyuppy.gif" class="KU"></img>
-            </div>
-        </div>
-        <div class="support">
-            <div class="faq">
-                <div></div>    
-                <div>
-                    <h1 class="title-alt">FAQs</h1>
-                    <dl class="faq-list">
-                        <dt>1. How far do I need to stand from the phone?</dt>
-                        <dd>Stay within camera view and move a few steps back until your waist and forehead are both visible.</dd>
-                        <dt>2. Do you record my video after I provide camera permission?</dt>
-                        <dd>No. We process the camera stream on your device for gameplay and neither record nor store any videos, audios, or images of you.</dd>
-                      </dl>
-                </div>
-            </div>
-            <div class="contact-us">
-                <div></div>
-                <div>
-                    <h1 class="title-alt">Contact Us</h1>
-                    <p class="by-line-alt">For any queries, complaints, or suggestions please write to us at the email below.</p>
-                    <a href="mailto:hello@ohilo.io" class="contact-us-email">hello@ohilo.io</a>
-                </div>
-            </div>
-            </div>
-        </div>
+          </div>
+        </nav>
+      </header>
+
+      <video
+        playsinline
+        autoplay
+        muted
+        loop
+        poster="./assets/brand/Poster.png"
+        class="bg_video mb-auto"
+      >
+        <source src="./assets/brand/Teaser-Short.mp4" type="video/mp4" />
+      </video>
+
+      <main class="px-3">
+        <h1 class="fw-bold">Core Trials</h1>
+        <p class="lead">
+          A high-octane, motion-based game that will have you dodging your way
+          through waves of attack from the Trial Masters to protect your core.
+        </p>
+        <p class="lead">
+          <a
+            href="https://apps.apple.com/us/app/core-trials/id1672762361"
+            class="btn btn-lg btn-outline-light fw-light"
+            ><i class="bi-apple"></i> App Store</a
+          >
+          <a
+            href="https://play.google.com/store/apps/details?id=io.ohilo.CoreTrials"
+            class="btn btn-lg btn-outline-light fw-light"
+            ><i class="bi-google-play"></i> Play Store</a
+          >
+        </p>
+      </main>
+
+      <div class="container w-auto justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <!-- <a class="nav-item nav-link" href="#"><i class="bi-linkedin icon-style" ></i></a> -->
+          <a class="nav-item nav-link m-2" href="https://twitter.com/CoreTrials"
+            ><i class="bi-twitter icon-style"></i
+          ></a>
+          <!-- <a class="nav-item nav-link" href="#"><i class="bi-instagram icon-style"></i></a> -->
+          <a
+            class="nav-item nav-link m-2"
+            href="https://www.youtube.com/@CT_Ohilo"
+            ><i class="bi-youtube icon-style"></i
+          ></a>
+          <a class="nav-item nav-link m-2" href="https://discord.gg/kgprfhtUay"
+            ><i class="bi-discord icon-style"></i
+          ></a>
+        </nav>
+      </div>
+
+      <footer class="mt-auto text-white-50">
+        <p class="text-white">&copy; 2023 Ohilo</p>
+      </footer>
     </div>
   </body>
 
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN3Z5CCPR0"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RN3Z5CCPR0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-     gtag('config', 'G-RN3Z5CCPR0');
-   </script>
+    gtag('config', 'G-RN3Z5CCPR0');
+  </script>
 </html>
